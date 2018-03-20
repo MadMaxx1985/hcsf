@@ -94,6 +94,8 @@ h6 {
 
 .map{
   margin-top: 20px;
+  width: auto;
+  height: 500px;
 }
 
 p {
@@ -175,4 +177,21 @@ hr {
 
 -webkit-background-size: cover;
 -background-size: cover;
+}
+
+.social {
+    display: inline-block;
+    border: none;
+}
+
+.social-vk {
+background: url(../img/vk.png) no-repeat;
+width: 21px;
+height: 21px;
+}
+
+.social-in {
+background: url(../img/instagram.png) no-repeat;
+width: 21px;
+height: 21px;
 }
