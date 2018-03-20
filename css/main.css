@@ -93,10 +93,8 @@ h6{
   margin-top: 0;
 }
 
-.map{
+.embed-responsive{
   margin-top: 20px;
-  width: auto;
-  height: 500px;
 }
 
 p {
@@ -180,11 +178,18 @@ hr {
 -background-size: cover;
 }
 
+.contact_pic {
+    float: left;
+}
+.contact_text {
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
 .social {
     display: inline-block;
     border: none;
 }
-
 .social-vk {
 background: url(../img/vk.png) no-repeat;
 width: 21px;
@@ -195,4 +200,21 @@ height: 21px;
 background: url(../img/instagram.png) no-repeat;
 width: 21px;
 height: 21px;
+}
+
+.email a{
+  color: #0000FF;
+}
+.contact_text a{
+  color: #0000FF;
+  font-size: 16px;
+}
+.email a:hover, a:focus {
+  color: #7b7b7b;
+  text-decoration: none;
+  outline: 1;
+}
+
+.link a{
+  color: #ababab;
 }
