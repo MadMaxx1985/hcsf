@@ -86,10 +86,11 @@ h5{
   margin-bottom: 30px;
 }
 
-h6 {
+h6{
   font-family: "Ubuntu";
-  font-weight: 300;
-  color: #333;
+  font-size: 14px;
+  color: #ababab;
+  margin-top: 0;
 }
 
 .map{
