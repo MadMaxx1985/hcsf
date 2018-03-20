@@ -20,7 +20,7 @@ ul, li {
 
 .top-block {
   background: url(../img/header_logo.png) no-repeat top;
-  background-size: auto;
+  background-size: 100%;
 }
 
 .logo{
