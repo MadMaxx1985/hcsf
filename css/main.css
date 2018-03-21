@@ -3,7 +3,7 @@ body {
   background-color: #ffffff;
   font-family: "Ubuntu";
   font-weight: 300;
-  font-size: 14px;
+  font-size: 12px;
   color: #fff;
   width: 100%;
   -webkit-font-smoothing: antialiased;
@@ -35,7 +35,7 @@ margin-bottom: 20px;
 header {
   background: url(../img/header_logo.png) no-repeat top;
   background-size: auto;
-padding-top: 24px;
+padding-top: 15px;
 background-attachment: relative;
 background-position: center center;
 min-height: 490px;
@@ -140,22 +140,26 @@ hr {
   padding: 0px;
 }
 
-.navbar{
+.navbar, .dropdown-menu, .dropdown-item, .nav-item{
   font-weight: 800;
-  font-size: 14px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  font-size: 12px;
+  padding-top: 0;
+  padding-bottom: 8px;
+  background-color: inherit;
+  font-family: "Ubuntu";
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
 }
-
-.navbar-inverse{
-  background: #2d2d2d;
-  background-color: #2d2d2d;
+.navbar-toggler{
+  background-color: #272524;
+  color: #fff;
+  border-width: thin;
+  border-color:#fff
 }
-
-.navbar-inverse .navbar-nav > .active > a{
-  background-color: #ff7878;
+.navbar-toggler-icon{
+  color: : #fff;
 }
-
 .navbar-inverse .navbar-brand{
   color: #999;
   font-weight: bolder;
