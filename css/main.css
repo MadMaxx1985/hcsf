@@ -157,6 +157,19 @@ hr {
   text-decoration: none;
   outline: 0;
 }
+
+.dropdown-item:hover, .dropdown-item:focus {
+  color: #7b7b7b;
+  text-decoration: none;
+  background-color: inherit;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: inherit;
+}
+
 .navbar-toggler{
   background-color: #272524;
   color: #fff;
