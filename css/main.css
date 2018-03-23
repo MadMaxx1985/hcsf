@@ -122,10 +122,6 @@ a:hover, a:focus {
   outline: 0;
 }
 
-menu {
-
-}
-
 .menu__item {
   margin: auto;
   margin-top: 0;
@@ -231,6 +227,25 @@ height: 21px;
 .contact_text a{
   color: #0000FF;
   font-size: 16px;
+}
+.news_pic {
+      float: left;
+  }
+
+.news_text {
+      margin-left: 75px;
+      margin-bottom: 25px;
+      font-size: 12px;
+}
+
+.news_text h4{
+  font-family: "Ubuntu";
+  font-size: 12px;
+  color: #ababab;
+  margin-top: 0;
+}
+.news_text a{
+  color: #ababab;
 }
 .email a:hover, a:focus {
   color: #7b7b7b;
