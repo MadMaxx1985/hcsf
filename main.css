@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+body {
+  background-color: #ffffff;
+  font-family: "Ubuntu";
+  font-weight: 300;
+  font-size: 12px;
+  color: #fff;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+
+  margin-top: 0px;
+}
+
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.top-block {
+  background: url(../img/header_logo.png) no-repeat top;
+  background-size: 100%;
+}
+
+.logo{
+
+}
+
+.logo_footer{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+header {
+  background: url(../img/header_logo.png) no-repeat top;
+  background-size: auto;
+padding-top: 15px;
+background-attachment: relative;
+background-position: center center;
+min-height: 490px;
+text-transform: uppercase;
+position: relative;
+-webkit-background-size: cover;
+}
+.snowContainer { width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 0;}
+#snow {width: 100%; height: 100%; background-image: url(../img/snow.png), url(../img/snow2.png), url(../img/snow3.png); -webkit-animation: snow 20s linear infinite;-moz-animation: snow 20s linear infinite;-ms-animation: snow 20s linear infinite;animation: snow 20s linear infinite;}
+@keyframes snow {0% {background-position: 0px 0px, 0px 0px, 0px 0px;} 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}}
+@-moz-keyframes snow {0% {background-position: 0px 0px, 0px 0px, 0px 0px;} 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}}
+@-webkit-keyframes snow {0% {background-position: 0px 0px, 0px 0px, 0px 0px;} 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}}
+@-ms-keyframes snow {0% {background-position: 0px 0px, 0px 0px, 0px 0px;} 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}}
+
+.way {
+  font-family: "Ubuntu";
+  font-size: 10px;
+  text-transform: none;
+}
+
+h1{
+  font-family: "Ubuntu";
+  font-size: 50px;
+  color: #fff;
+  margin-top: 0;
+}
+
+h2{
+  font-family: "Ubuntu";
+  font-size: 10px;
+  color: #fff;
+  margin-top: 0;
+}
+
+h3{
+  font-family: "Ubuntu";
+  font-size: 30px;
+  color: #2e2e2e;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h4{
+  font-family: "Ubuntu";
+  font-size: 18px;
+  color: #ababab;
+  margin-top: 0;
+}
+h5{
+  font-family: "Ubuntu";
+  font-size: 20px;
+  color: #2e2e2e;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h6{
+  font-family: "Ubuntu";
+  font-size: 14px;
+  color: #ababab;
+  margin-top: 0;
+}
+h7{
+  font-family: "Ubuntu";
+  font-size: 18px;
+  color: #2e2e2e;
+  margin-top: 0;
+}
+.embed-responsive{
+  margin-top: 20px;
+}
+
+p {
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+
+.centered {
+  text-align: center;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover, a:focus {
+  color: #7b7b7b;
+  text-decoration: none;
+  outline: 0;
+}
+
+.menu__item {
+  margin: auto;
+  margin-top: 0;
+}
+
+.menu__item1 {
+  margin: 13px;
+  margin-top: 0;
+  color: #7b7b7b;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0px;
+  border-top: 1px solid #ccc;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.navbar, .dropdown-menu, .dropdown-item, .nav-item{
+  font-weight: 800;
+  font-size: 12px;
+  padding-top: 0;
+  padding-bottom: 8px;
+  background-color: inherit;
+  font-family: "Ubuntu";
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  color: #7b7b7b;
+  text-decoration: none;
+  background-color: inherit;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: inherit;
+}
+
+.navbar-toggler{
+  background-color: #272524;
+  color: #fff;
+  border-width: thin;
+  border-color:#fff
+}
+.navbar-toggler-icon{
+  color: : #fff;
+}
+.navbar-inverse .navbar-brand{
+  color: #999;
+  font-weight: bolder;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+#headerwrap {
+  background: url(../img/header_logo.png);
+  margin-top: -0px;
+  padding-top: 20px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 500px;
+  width: 100%;
+  background-size: 100%;
+
+-webkit-background-size: cover;
+-background-size: cover;
+}
+
+.main-text {
+    text-align: justify;
+}
+.contact_pic {
+    float: left;
+}
+.contact_text {
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.social {
+    display: inline-block;
+    border: none;
+}
+.social-vk {
+background: url(../img/vk.png) no-repeat;
+width: 21px;
+height: 21px;
+}
+
+.social-in {
+background: url(../img/instagram.png) no-repeat;
+width: 21px;
+height: 21px;
+}
+
+.email a{
+  color: #0000FF;
+}
+.contact_text a{
+  color: #0000FF;
+  font-size: 16px;
+}
+.news_pic {
+      float: left;
+  }
+
+.news_text {
+      margin-left: 75px;
+      margin-bottom: 50px;
+      font-size: 12px;
+}
+
+.news_text h4{
+  font-family: "Ubuntu";
+  font-size: 12px;
+  color: #ababab;
+}
+.news_text a{
+  color: #ababab;
+}
+.email a:hover, a:focus {
+  color: #7b7b7b;
+  text-decoration: none;
+  outline: 1;
+}
+
+.link a{
+  color: #0000FF;
+}
