@@ -98,7 +98,12 @@ h6{
   color: #ababab;
   margin-top: 0;
 }
-
+h7{
+  font-family: "Ubuntu";
+  font-size: 18px;
+  color: #2e2e2e;
+  margin-top: 0;
+}
 .embed-responsive{
   margin-top: 20px;
 }
@@ -197,6 +202,9 @@ hr {
 -background-size: cover;
 }
 
+.main-text {
+    text-align: justify;
+}
 .contact_pic {
     float: left;
 }
@@ -242,7 +250,6 @@ height: 21px;
   font-family: "Ubuntu";
   font-size: 12px;
   color: #ababab;
-  margin-top: 0;
 }
 .news_text a{
   color: #ababab;
