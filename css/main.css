@@ -138,6 +138,43 @@ a:hover, a:focus {
   color: #7b7b7b;
 }
 
+.coach {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+
+}
+
+.coach h2 {
+  position: absolute;
+  text-decoration-color: #fff;
+  top: 8%;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Ubuntu";
+  font-weight: bold;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.coach h1 {
+  position: absolute;
+  text-decoration-color: #fff;
+  top: 15%;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Ubuntu";
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+a:hover div img{
+    opacity: 0.8; /* Высветляем картинку, но она становится темнее, так как под ней черный фон */
+    transform: scale(1.05); /* Увеличение картинки */
+}
+
 hr {
   display: block;
   height: 1px;
