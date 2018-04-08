@@ -150,7 +150,7 @@ a:hover, a:focus {
 .coach h2 {
   position: absolute;
   text-decoration-color: #fff;
-  top: 8%;
+  top: 30px;
   text-align: center;
   font-size: 18px;
   font-family: "Ubuntu";
@@ -162,7 +162,7 @@ a:hover, a:focus {
 .coach h1 {
   position: absolute;
   text-decoration-color: #fff;
-  top: 15%;
+  top: 55px;
   text-align: center;
   font-size: 12px;
   font-family: "Ubuntu";
