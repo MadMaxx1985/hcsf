@@ -177,8 +177,20 @@ a:hover, a:focus {
 
 .coach-text h3{
   text-align: center;
+  line-height: 0.1em;
 }
-
+.coach-text{
+  line-height: 0.1em;
+}
+.coach-text-edu h3{
+  font-size: 10px;
+  line-height: 0.2em;
+}
+.coach-text-edu h5{
+  font-size: 18px;
+  line-height: 0.2em;
+  margin-top: 0;
+}
 a:hover div img{
     opacity: 0.8; /* Высветляем картинку, но она становится темнее, так как под ней черный фон */
     transform: scale(1.05); /* Увеличение картинки */
@@ -254,11 +266,26 @@ hr {
 .contact_pic {
     float: left;
 }
+.edu_pic {
+    float: left;
+    margin-top: -10px;
+}
+.edu_text {
+  margin-left: 42px;
+  margin-bottom: 25px;
+  text-align: justify;
+  line-height: 0.6em;
+}
+.edu_text h4{
+  font-size: 14px;
+  color: #000000;
+  line-height: 1.5em;
+  margin-top: -10px;
+}
 .contact_text {
     margin-left: 25px;
     margin-bottom: 25px;
 }
-
 .social {
     display: inline-block;
     border: none;
