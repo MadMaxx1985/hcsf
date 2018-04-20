@@ -154,25 +154,21 @@ a:hover, a:focus {
 .coach h2 {
   position: absolute;
   text-decoration-color: #fff;
-  top: 300px;
   text-align: center;
   font-size: 16px;
   font-family: "Ubuntu";
   font-weight: bold;
-  left: 0;
-  bottom: 0;
+  bottom: 40px;
   width: 100%;
 }
 .coach h1 {
   position: absolute;
   text-decoration-color: #fff;
-  top: 325px;
   text-align: center;
   font-size: 12px;
   font-family: "Ubuntu";
-  left: 0;
-  bottom: 0;
   width: 100%;
+  bottom: 20px;
 }
 
 .coach-text h3{
