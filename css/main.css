@@ -144,7 +144,6 @@ a:hover, a:focus {
   max-width: 100%;
   height: auto;
   position: relative;
-
 }
 .coach_circle {
   margin-top: -180px;
@@ -332,4 +331,20 @@ height: 21px;
 
 .link a{
   color: #0000FF;
+}
+.pagenews-text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.pagenews-text h3{
+  font-size: 12px;
+  color: #ababab;
+}
+.pagenews-text h5{
+  font-size: 16px;
+  line-height: 1.5em;
+}
+.pagenews-pic {
+  margin-top: 20px;
+    margin-bottom: 20px;
 }
