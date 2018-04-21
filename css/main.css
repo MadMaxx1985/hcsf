@@ -348,3 +348,16 @@ height: 21px;
   margin-top: 20px;
     margin-bottom: 20px;
 }
+.pagenews-video {
+  position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+.pagenews-video iframe{
+  position: absolute;
+	top: 0;
+	left: 0;
+	width: 85%;
+	height: 85%;
+}
