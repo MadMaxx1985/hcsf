@@ -8821,6 +8821,7 @@ button.bg-dark:focus {
 
 .text-white {
   color: #fff !important;
+  text-shadow: black 0 0 2px;
 }
 
 .text-primary {
